@@ -51,13 +51,6 @@ const Header = () => {
 
   return (
     <header className="w-full fixed top-0 left-0 right-0 z-50 bg-transparent">
-      {/* Darker blue top bar - hidden on mobile */}
-      <div className="hidden md:block text-white text-sm py-1" style={{backgroundColor: '#241afe'}}>
-        <div className="container mx-auto px-4">
-          <div className="text-right">&nbsp;</div>
-        </div>
-      </div>
-      
       {/* Main header - subtle background for visibility */}
       <div className="text-white py-4 bg-black bg-opacity-20 backdrop-blur-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
