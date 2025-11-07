@@ -1,4 +1,5 @@
 import React from 'react';
+import LogoMarquee from './LogoMarquee';
 
 const AboutUs = () => {
   return (
@@ -42,6 +43,11 @@ const AboutUs = () => {
               Founder & CEO
             </p>
           </div>
+        </div>
+        
+        {/* Logo Marquee Section */}
+        <div className="mt-12">
+          <LogoMarquee />
         </div>
         
         {/* Statistics Section */}

@@ -278,8 +278,14 @@ const Tracker = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative pt-28 sm:pt-32 md:pt-36 pb-16 sm:pb-18 md:pb-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900">
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      <section className="relative pt-28 sm:pt-32 md:pt-36 pb-16 sm:pb-18 md:pb-20">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: "url('/assets/home__page.jpg')"
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center text-white">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">

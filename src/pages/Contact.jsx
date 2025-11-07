@@ -28,14 +28,25 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      
-      // Reset form after 3 seconds
-      setTimeout(() => {
+    try {
+      const response = await fetch('https://formspree.io/f/mqawzzog', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.description
+        })
+      });
+
+      if (response.ok) {
+        setSubmitSuccess(true);
+        // Reset form
         setFormData({
           firstName: '',
           lastName: '',
@@ -44,9 +55,19 @@ const Contact = () => {
           subject: '',
           description: ''
         });
-        setSubmitSuccess(false);
-      }, 3000);
-    }, 1500);
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('There was an error submitting your form. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -155,7 +176,8 @@ const Contact = () => {
                   <p className="text-gray-600">Thank you for contacting us. We'll get back to you soon.</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} action="https://formspree.io/f/mqawzzog" method="POST" className="space-y-6">
+                  <input type="hidden" name="_replyto" value={formData.email} />
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="relative">
                       <label className="block text-sm font-semibold text-gray-700 mb-2">First Name</label>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const OurServices = () => {
-  const [selectedService, setSelectedService] = useState('Transport Solution');
+  const [selectedService, setSelectedService] = useState('Freight Solutions');
   const navigate = useNavigate();
 
   const handleServiceClick = (serviceTitle) => {
@@ -32,7 +32,7 @@ const OurServices = () => {
   const transportServices = [
     {
       title: "Project & Oversize Shipments",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Project_&_Oversize_Shipments.jpg",
       description: "OFL International offers specialized solutions for oversized, heavy, or unconventional cargo that requires more than standard transport. With access to a wide range of equipment, we ensure safe, compliant, and efficient movement from origin to destination."
     },
     {
@@ -45,27 +45,27 @@ const OurServices = () => {
   const freightServices = [
     {
       title: "Air Freight",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/air_frieght.jpg",
       description: "Fast. Reliable. Global. OFL International provides premium air freight solutions from Saudi Arabia and across the Middle East to destinations worldwide. Whether your shipping terms are EXW, FOB, C&F, CIF, or DDP, we deliver seamless, end-to-end handling — from pickup to final delivery."
     },
     {
       title: "Sea Freight",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/sea_freight.jpg",
       description: "Efficient Sea Freight Services – Covering Ports Worldwide. Whether your shipment is under FOB, CIF, EXW, or DDP terms, we provide flexible LCL and FCL options — complete with documentation, customs clearance, and timely delivery."
     },
     {
       title: "Road Freight",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/road_freight.jpg",
       description: "Reliable Land Freight Across the Region. OFL International delivers efficient land freight solutions connecting Saudi Arabia and the Middle East with smooth cross-border transport. Whether your cargo requires FTL or LTL services under EXW, FOB, or DDP terms, we ensure safe, timely deliveries."
     },
     {
       title: "Customs Clearance",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Customs_Clearance.jpg",
       description: "Smooth & Hassle-Free Customs Clearance. OFL International offers expert customs clearance services to ensure your cargo moves swiftly. From paperwork to port release — we clear the way for your cargo."
     },
     {
       title: "Freight Insurance",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Freight_Insurance.jpg",
       description: "Protect Your Cargo with Freight Insurance. At OFL International, we offer reliable freight insurance solutions to safeguard your shipments against loss, damage, or unforeseen events during transit. Your cargo is valuable — we make sure it's protected."
     }
   ];
@@ -73,12 +73,12 @@ const OurServices = () => {
   const warehousingServices = [
     {
       title: "Warehousing & Distribution",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Warehousing_&_Distribution.jpg",
       description: "OFL International provides reliable warehousing and efficient distribution services tailored to your supply chain needs. Our strategically located facilities ensure seamless storage, inventory management, and timely dispatch."
     },
     {
       title: "Food Storage",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Food_Storage.jpg",
       description: "OFL International offers specialized food storage services with both refrigerated and standard (dry) warehousing options. Our temperature-controlled facilities maintain the integrity and freshness of perishable goods."
     }
   ];
@@ -86,7 +86,7 @@ const OurServices = () => {
   const otherSolutions = [
     {
       title: "Consolidation Service",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Consolidation Service.jpg",
       description: "With an aim to provide extra-efficient, seamless, and cost-effective services, OFL International has developed a consolidation hub in Amsterdam, Netherlands. This gives us an edge over others in both time and cost savings."
     }
   ];

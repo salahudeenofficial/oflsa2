@@ -16,22 +16,22 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative text-white min-h-[100vh] flex items-center pt-20">
+    <section className="relative text-white min-h-[100vh] flex items-start pt-20">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"
-        }}
-      ></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: "url('/assets/home__page.jpg')"
+          }}
+        ></div>
       
       {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20">
+      <div className="relative z-10 container mx-auto px-4 pt-32 md:pt-40 pb-20">
           <div className="max-w-4xl">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 md:mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 md:mb-10">
               &quot;We take care of the<br />
               details so you can focus on what matters most&quot;
             </h1>
