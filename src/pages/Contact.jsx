@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CustomerPerks from '../components/CustomerPerks';
+import LazyImage from '../components/LazyImage';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -83,7 +84,7 @@ const Contact = () => {
             {/* Left Column - CEO Photo */}
             <div className="flex justify-center">
               <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-                <img 
+                <LazyImage 
                   src="/assets/ceo.jpeg" 
                   alt="Rafeek Sharafudeen, Founder & CEO" 
                   className="w-full h-full object-cover"
@@ -315,7 +316,7 @@ const Contact = () => {
               </div>
               
               <div className="rounded-2xl overflow-hidden shadow-lg">
-                <img 
+                <LazyImage 
                   src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
                   alt="OFL Shipping Container" 
                   className="w-full h-64 object-cover"

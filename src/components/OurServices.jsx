@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import LazyImage from './LazyImage';
 
 const OurServices = () => {
   const [selectedService, setSelectedService] = useState('Freight Solutions');
@@ -148,7 +149,7 @@ const OurServices = () => {
               onClick={() => handleServiceClick(service.title)}
             >
               <div className="h-40 sm:h-48 overflow-hidden">
-                <img
+                <LazyImage
                   src={service.image}
                   alt={service.title}
                   className="w-full h-full object-cover"

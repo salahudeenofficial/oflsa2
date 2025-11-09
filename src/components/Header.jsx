@@ -52,12 +52,12 @@ const Header = () => {
   return (
     <header className="w-full fixed top-0 left-0 right-0 z-50 bg-transparent">
       {/* Main header - subtle background for visibility */}
-      <div className="text-white py-4 bg-black bg-opacity-20 backdrop-blur-sm">
+      <div className="text-white py-2 md:py-4 bg-black bg-opacity-20 backdrop-blur-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <div className="flex flex-col items-center cursor-pointer" onClick={handleLogoClick}>
             <div className="flex items-center">
-              <svg className="w-16 h-6 md:w-24 md:h-8" viewBox="0 0 137 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-12 h-4 md:w-24 md:h-8" viewBox="0 0 137 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fillRule="evenodd" clipRule="evenodd" d="M33.8472 8.16704L26.0372 26.3327C25.2586 28.3531 25.0747 32.547 30.4166 33.4253L48.1405 33.4679C50.5884 33.2639 56.2187 31.8767 59.1562 27.96L67.673 8.78442C69.4274 3.27654 65.3781 1.55957 63.1341 1.38958H44.1625C38.1651 1.96076 34.7867 6.14588 33.8472 8.16704ZM37.7367 22.1971L41.6126 13.1703C42.7498 10.5219 44.9084 9.82287 45.8455 9.8044H54.6173C55.7597 9.8044 55.9093 11.5044 55.8413 12.3543C54.5833 15.3973 51.8736 21.8299 51.0984 23.2171C50.3232 24.6043 48.8034 25.2231 48.1405 25.3591C46.5425 25.4101 42.6734 25.4815 39.9806 25.3591C37.2879 25.2367 37.3627 23.2001 37.7367 22.1971Z" fill="white"/>
                 <path d="M56.4587 34.7103L18.2157 34.9521L21.238 38.6595L18.2157 42.9715H56.4587C64.6474 42.0043 68.1184 37.7596 68.8303 35.7581L74.1094 23.185H94.7824L101.351 19.0746L98.2078 14.7627H77.7362L78.6228 12.3851C79.6867 9.38688 81.9676 8.55674 82.975 8.51644H102.721L109.733 4.7687L105.945 0.0940963H80.5168C74.1336 0.738869 70.8721 6.27317 70.0393 8.95972C67.4064 15.3537 61.8184 28.7865 60.5289 31.3656C59.2393 33.9446 57.2781 34.67 56.4587 34.7103Z" fill="white"/>
                 <path d="M108.241 8.51644H105.945L111.722 5.48018L108.867 0.0941095C109.904 0.0230923 113.239 -0.0763319 118.284 0.0941095C123.329 0.264551 122.488 6.68747 121.437 9.22989C118.497 16.4878 112.438 31.6173 111.722 34.0717C111.006 36.5261 112.247 37.1681 112.957 37.1823H132.729L136.904 41.912L129.022 45.6617C122.119 45.6901 107.239 45.6617 102.944 45.3208C98.6489 44.9799 98.8818 40.9462 99.5352 38.9719C102.021 32.2821 108.148 16.9089 109.733 12.9779C111.038 9.74283 109.377 8.3744 108.241 8.51644Z" fill="white"/>
@@ -71,7 +71,7 @@ const Header = () => {
                 <path d="M95.7187 41.1856H73.8294L72.2745 43.9367H96.855C95.946 42.8841 95.7187 41.664 95.7187 41.1856Z" fill="white"/>
               </svg>
             </div>
-            <div className="text-[6px] md:text-[8px] text-white font-light mt-1 leading-tight">
+            <div className="text-[5px] md:text-[8px] text-white font-light mt-0.5 md:mt-1 leading-tight">
               INTERNATIONAL SHIPPING LLC
             </div>
           </div>

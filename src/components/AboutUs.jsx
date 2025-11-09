@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoMarquee from './LogoMarquee';
+import LazyImage from './LazyImage';
 
 const AboutUs = () => {
   return (
@@ -9,7 +10,7 @@ const AboutUs = () => {
           {/* Left Column - CEO Photo */}
           <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-              <img 
+              <LazyImage 
                 src="/assets/ceo.jpeg" 
                 alt="Rafeek Sharafudeen, Founder & CEO" 
                 className="w-full h-full object-cover"

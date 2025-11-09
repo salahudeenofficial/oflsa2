@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyImage from './LazyImage';
 
 const LogoMarquee = () => {
   const logos = [
@@ -18,7 +19,7 @@ const LogoMarquee = () => {
           {/* First set of logos */}
           {logos.map((logo, index) => (
             <div key={`first-${index}`} className="flex-shrink-0 px-8 md:px-16 flex items-center justify-center">
-              <img 
+              <LazyImage 
                 src={logo.src} 
                 alt={logo.alt} 
                 className="h-16 md:h-20 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
@@ -27,7 +28,7 @@ const LogoMarquee = () => {
           ))}
           {logos.map((logo, index) => (
             <div key={`first-repeat-${index}`} className="flex-shrink-0 px-8 md:px-16 flex items-center justify-center">
-              <img 
+              <LazyImage 
                 src={logo.src} 
                 alt={logo.alt} 
                 className="h-16 md:h-20 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
@@ -38,7 +39,7 @@ const LogoMarquee = () => {
           {/* Duplicate set for seamless loop */}
           {logos.map((logo, index) => (
             <div key={`second-${index}`} className="flex-shrink-0 px-8 md:px-16 flex items-center justify-center">
-              <img 
+              <LazyImage 
                 src={logo.src} 
                 alt={logo.alt} 
                 className="h-16 md:h-20 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
@@ -47,7 +48,7 @@ const LogoMarquee = () => {
           ))}
           {logos.map((logo, index) => (
             <div key={`second-repeat-${index}`} className="flex-shrink-0 px-8 md:px-16 flex items-center justify-center">
-              <img 
+              <LazyImage 
                 src={logo.src} 
                 alt={logo.alt} 
                 className="h-16 md:h-20 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"

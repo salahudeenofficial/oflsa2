@@ -3,12 +3,20 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CustomerPerks from '../components/CustomerPerks';
+import LazyBackground from '../components/LazyBackground';
 
 const ProjectOversizeShipments = () => {
   const navigate = useNavigate();
 
   const handleContactClick = () => {
     navigate('/contact');
+    // Scroll to Contact Us section after navigation
+    setTimeout(() => {
+      const contactSection = document.getElementById('contact-us-section');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
   };
   return (
     <div className="min-h-screen">
@@ -17,12 +25,10 @@ const ProjectOversizeShipments = () => {
       {/* Hero Section */}
       <section className="relative text-white min-h-[100vh] flex items-start pt-20 md:pt-32">
         {/* Background Image */}
-        <div 
+        <LazyBackground 
+          src="/assets/Project_&_Oversize_Shipments.jpg"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('/assets/Project_&_Oversize_Shipments.jpg')"
-          }}
-        ></div>
+        />
         
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
