@@ -2,11 +2,11 @@ import React, { useRef, useEffect, useState } from 'react';
 
 const AdaptiveVideo = ({ 
   sources = {
-    high: '/assets/videos/hero_vid_1080p.mp4',
-    medium: '/assets/videos/hero_vid_720p.mp4',
+    high: '/assets/videos/hero_vid_480p.mp4',
+    medium: '/assets/videos/hero_vid_480p.mp4',
     low: '/assets/videos/hero_vid_480p.mp4',
-    // Fallback to original if optimized versions don't exist
-    original: '/assets/videos/hero_vid_original.mp4'
+    // Single optimized video for fast loading
+    original: '/assets/videos/hero_vid_480p.mp4'
   },
   poster = '/assets/videos/hero_vid_poster.webp',
   className = '',
