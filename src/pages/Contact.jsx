@@ -28,7 +28,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       const response = await fetch('https://formspree.io/f/mqawzzog', {
         method: 'POST',
@@ -74,26 +74,26 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      
+
       {/* About Us Section */}
       <section className="bg-white py-16 pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">About Us</h2>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - CEO Photo */}
             <div className="flex justify-center">
               <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-                <LazyImage 
-                  src="/assets/ceo.webp" 
-                  alt="Rafeek Sharafudeen, Founder & CEO" 
+                <LazyImage
+                  src="/assets/ceo.webp"
+                  alt="Rafeek Sharafudeen, Founder & CEO"
                   className="w-full h-full object-cover"
                 />
                 {/* Fill overlay */}
                 <div className="absolute inset-0 bg-[#241afe] opacity-100"></div>
               </div>
             </div>
-            
+
             {/* Right Column - Text */}
             <div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
@@ -118,7 +118,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          
+
           {/* Statistics Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="text-center bg-gray-50 rounded-lg p-6">
@@ -130,7 +130,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-blue-900 mb-2">200k+</h3>
               <p className="text-gray-700">Deliveries</p>
             </div>
-            
+
             <div className="text-center bg-gray-50 rounded-lg p-6">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -141,14 +141,14 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-blue-900 mb-2">350+</h3>
               <p className="text-gray-700">Locations</p>
             </div>
-            
+
             <div className="text-center bg-gray-50 rounded-lg p-6">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-blue-900 mb-2">14+</h3>
+              <h3 className="text-2xl font-bold text-blue-900 mb-2">15+</h3>
               <p className="text-gray-700">Years Experience</p>
             </div>
           </div>
@@ -162,7 +162,7 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-blue-900 mb-4">Get In Touch</h2>
             <p className="text-lg text-gray-600">We're here to help you move your business forward</p>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -205,7 +205,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div className="relative">
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
                     <input
@@ -218,7 +218,7 @@ const Contact = () => {
                       required
                     />
                   </div>
-                  
+
                   <div className="relative">
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
                     <input
@@ -230,7 +230,7 @@ const Contact = () => {
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-gray-700"
                     />
                   </div>
-                  
+
                   <div className="relative">
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Subject</label>
                     <input
@@ -242,7 +242,7 @@ const Contact = () => {
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-gray-700"
                     />
                   </div>
-                  
+
                   <div className="relative">
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Message</label>
                     <textarea
@@ -255,7 +255,7 @@ const Contact = () => {
                       required
                     ></textarea>
                   </div>
-                  
+
                   <button
                     type="submit"
                     disabled={isSubmitting}
@@ -281,7 +281,7 @@ const Contact = () => {
                 </form>
               )}
             </div>
-            
+
             {/* Contact Info & Image */}
             <div className="flex flex-col justify-center">
               <div className="bg-gradient-to-br from-blue-900 to-blue-700 rounded-2xl p-8 text-white mb-8">
@@ -314,11 +314,11 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="rounded-2xl overflow-hidden shadow-lg">
-                <LazyImage 
-                  src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
-                  alt="OFL Shipping Container" 
+                <LazyImage
+                  src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                  alt="OFL Shipping Container"
                   className="w-full h-64 object-cover"
                 />
               </div>
@@ -329,7 +329,7 @@ const Contact = () => {
 
       {/* Customer Perks Section */}
       <CustomerPerks />
-      
+
       {/* Footer */}
       <Footer />
     </div>

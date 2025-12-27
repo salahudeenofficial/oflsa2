@@ -10,16 +10,16 @@ const AboutUs = () => {
           {/* Left Column - CEO Photo */}
           <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-              <LazyImage 
-                src="/assets/ceo.webp" 
-                alt="Rafeek Sharafudeen, Founder & CEO" 
+              <LazyImage
+                src="/assets/ceo.webp"
+                alt="Rafeek Sharafudeen, Founder & CEO"
                 className="w-full h-full object-cover"
               />
               {/* Fill overlay */}
               <div className="absolute inset-0 bg-[#241afe] opacity-100"></div>
             </div>
           </div>
-          
+
           {/* Right Column - Text */}
           <div className="order-1 lg:order-2">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">About OFL INTERNATIONAL</h2>
@@ -45,12 +45,12 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        
+
         {/* Logo Marquee Section */}
         <div className="mt-12">
           <LogoMarquee />
         </div>
-        
+
         {/* Statistics Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center bg-gray-50 rounded-lg p-6">
@@ -62,7 +62,7 @@ const AboutUs = () => {
             <h3 className="text-2xl font-bold text-blue-900 mb-2">200k+</h3>
             <p className="text-gray-700">Deliveries</p>
           </div>
-          
+
           <div className="text-center bg-gray-50 rounded-lg p-6">
             <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,14 +73,14 @@ const AboutUs = () => {
             <h3 className="text-2xl font-bold text-blue-900 mb-2">350+</h3>
             <p className="text-gray-700">Locations</p>
           </div>
-          
+
           <div className="text-center bg-gray-50 rounded-lg p-6">
             <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-blue-900 mb-2">14+</h3>
+            <h3 className="text-2xl font-bold text-blue-900 mb-2">15+</h3>
             <p className="text-gray-700">Years Experience</p>
           </div>
         </div>

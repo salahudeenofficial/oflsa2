@@ -98,7 +98,7 @@ const WhyChooseOFL = () => {
         </div>
 
         {/* Bottom dark blue bar */}
-        <div className="absolute bottom-0 left-0 right-0 h-4" style={{backgroundColor: '#241afe'}}></div>
+        <div className="absolute bottom-0 left-0 right-0 h-4" style={{ backgroundColor: '#241afe' }}></div>
       </section>
 
       {/* About OFL Section */}
@@ -107,7 +107,7 @@ const WhyChooseOFL = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left Column - Text */}
             <div>
-              <h2 className="text-3xl font-bold text-blue-900 mb-8">About Orbit Freight Logistics Agency</h2>
+              <h2 className="text-3xl font-bold text-blue-900 mb-8">About OFL INTERNATIONAL</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
                 "As we mark another milestone in our journey, I extend my heartfelt gratitude to every client, partner, and team member who has contributed to our growth. What started as a vision in 2011 has grown into a trusted logistics name across borders."
               </p>
@@ -123,7 +123,7 @@ const WhyChooseOFL = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Right Column - Visual Asset */}
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-900 to-blue-700 rounded-2xl p-8 text-white">
@@ -148,7 +148,7 @@ const WhyChooseOFL = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Statistics Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="text-center bg-gray-50 rounded-lg p-6">
@@ -160,7 +160,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-2xl font-bold text-blue-900 mb-2">200k+</h3>
               <p className="text-gray-700">Deliveries</p>
             </div>
-            
+
             <div className="text-center bg-gray-50 rounded-lg p-6">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -171,14 +171,14 @@ const WhyChooseOFL = () => {
               <h3 className="text-2xl font-bold text-blue-900 mb-2">350+</h3>
               <p className="text-gray-700">Locations</p>
             </div>
-            
+
             <div className="text-center bg-gray-50 rounded-lg p-6">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-blue-900 mb-2">14+</h3>
+              <h3 className="text-2xl font-bold text-blue-900 mb-2">15+</h3>
               <p className="text-gray-700">Years Experience</p>
             </div>
           </div>
@@ -194,7 +194,7 @@ const WhyChooseOFL = () => {
               From small businesses to multinational corporations, we deliver excellence across all sectors
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -205,7 +205,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-xl font-bold mb-2">Manufacturing</h3>
               <p className="text-blue-100">End-to-end supply chain solutions for production facilities</p>
             </div>
-            
+
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -215,7 +215,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-xl font-bold mb-2">Retail & E-commerce</h3>
               <p className="text-blue-100">Fast and reliable delivery solutions for online businesses</p>
             </div>
-            
+
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center">
               <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -233,7 +233,7 @@ const WhyChooseOFL = () => {
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Our Comprehensive Services</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div
@@ -262,7 +262,7 @@ const WhyChooseOFL = () => {
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Why Choose OFL?</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -273,7 +273,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-xl font-bold text-blue-900 mb-3">Fast & Reliable</h3>
               <p className="text-gray-700">Quick delivery times with reliable service across all our transportation modes.</p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -283,7 +283,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-xl font-bold text-blue-900 mb-3">Global Network</h3>
               <p className="text-gray-700">335 offices across 57 countries ensuring worldwide coverage and local expertise.</p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -293,7 +293,7 @@ const WhyChooseOFL = () => {
               <h3 className="text-xl font-bold text-blue-900 mb-3">Cost Effective</h3>
               <p className="text-gray-700">Competitive pricing with innovative solutions to optimize your supply chain costs.</p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
