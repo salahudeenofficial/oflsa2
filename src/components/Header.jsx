@@ -208,7 +208,7 @@ const Header = () => {
               onClick={() => navigate('/why-choose-ofl')}
               className="hover:text-blue-300 transition-colors bg-transparent border-none text-white cursor-pointer"
             >
-              Why Choose OFL?
+              Why Choose OFL INTERNATIONAL?
             </button>
             <button
               onClick={handleContactClick}
@@ -240,7 +240,7 @@ const Header = () => {
                 }}
                 className="block w-full text-left text-white hover:text-blue-300 py-2"
               >
-                Why Choose OFL?
+                Why Choose OFL INTERNATIONAL?
               </button>
               <button
                 onClick={() => {

@@ -17,55 +17,55 @@ const WhyChooseOFL = () => {
     {
       title: "Air Freight",
       image: "/assets/air_frieght.webp",
-      description: "At Orbit Freight Logistics Agency (OFL), we take pride in offering comprehensive air freight services across the Kingdom of Saudi Arabia, the entire GCC region, and worldwide. We understand the critical role air freight plays in today's fast-paced business environment.",
+      description: "At OFL International, we take pride in offering comprehensive air freight services across the Kingdom of Saudi Arabia, the entire GCC region, and worldwide. We understand the critical role air freight plays in today's fast-paced business environment.",
       route: "/air-logistics"
     },
     {
       title: "Sea Freight",
       image: "/assets/sea_freight.webp",
-      description: "Orbit Freight Logistics Agency (OFL) empowers your business to navigate the global marketplace with our comprehensive sea freight services. We operate across all ports in Saudi Arabia, the GCC region, and beyond, with a global reach ensuring seamless delivery wherever your cargo needs to go.",
+      description: "OFL International empowers your business to navigate the global marketplace with our comprehensive sea freight services. We operate across all ports in Saudi Arabia, the GCC region, and beyond, with a global reach ensuring seamless delivery wherever your cargo needs to go.",
       route: "/sea-freight"
     },
     {
       title: "Road Freight",
       image: "/assets/road_freight.webp",
-      description: "Orbit Freight Logistics Agency (OFL) keeps your business moving across the Kingdom and beyond with our comprehensive road freight services. Our network spans all Saudi Arabian border crossings, ensuring seamless and efficient delivery throughout the region and beyond.",
+      description: "OFL International keeps your business moving across the Kingdom and beyond with our comprehensive road freight services. Our network spans all Saudi Arabian border crossings, ensuring seamless and efficient delivery throughout the region and beyond.",
       route: "/road-freight"
     },
     {
       title: "Customs Clearance",
       image: "/assets/Customs_Clearance.webp",
-      description: "Orbit Freight Logistics Agency (OFL) understands the complexities of navigating customs regulations. That's why we offer comprehensive and efficient customs clearance services across all ports in the Kingdom of Saudi Arabia. Our team of highly experienced professionals, equipped with in-depth knowledge of local and international customs procedures.",
+      description: "OFL International understands the complexities of navigating customs regulations. That's why we offer comprehensive and efficient customs clearance services across all ports in the Kingdom of Saudi Arabia. Our team of highly experienced professionals, equipped with in-depth knowledge of local and international customs procedures.",
       route: "/customs-clearance"
     },
     {
       title: "Project & Oversize Shipments",
       image: "/assets/Project_&_Oversize_Shipments.webp",
-      description: "At Orbit Freight Logistics (OFL), we understand that handling 'out-of-gauge' and bulk shipments requires specialized expertise. That's why we offer tailored solutions for your complex and oversized cargo, ensuring efficient, safe, and cost-effective transportation globally.",
+      description: "At OFL International, we understand that handling 'out-of-gauge' and bulk shipments requires specialized expertise. That's why we offer tailored solutions for your complex and oversized cargo, ensuring efficient, safe, and cost-effective transportation globally.",
       route: "/project-oversize-shipments"
     },
     {
       title: "Event Logistics",
       image: "/assets/Event_Logistics.webp",
-      description: "Orbit Freight & Logistics: Your Stress-Free Event Logistics Partner. Planning an event can be overwhelming. At Orbit Freight & Logistics, we understand the countless details involved, from booth setup to equipment transport. That's why we offer customized solutions tailored to your specific event needs.",
+      description: "OFL International: Your Stress-Free Event Logistics Partner. Planning an event can be overwhelming. At OFL International, we understand the countless details involved, from booth setup to equipment transport. That's why we offer customized solutions tailored to your specific event needs.",
       route: "/event-logistics"
     },
     {
       title: "Freight Insurance",
       image: "/assets/Freight_Insurance.webp",
-      description: "While everyone involved strives for a smooth delivery, unforeseen circumstances like natural disasters can threaten your cargo. Here at Orbit Freight Logistics (OFL), we understand the importance of protecting your goods during transport. That's why we offer comprehensive freight insurance solutions to safeguard your investments and provide peace of mind throughout your supply chain journey.",
+      description: "While everyone involved strives for a smooth delivery, unforeseen circumstances like natural disasters can threaten your cargo. Here at OFL International, we understand the importance of protecting your goods during transport. That's why we offer comprehensive freight insurance solutions to safeguard your investments and provide peace of mind throughout your supply chain journey.",
       route: "/freight-insurance"
     },
     {
       title: "Food Storage",
       image: "/assets/Food_Storage.webp",
-      description: "At Orbit Freight Logistics (OFL), we understand the importance of reliable storage for your valuable goods. That's why we offer comprehensive warehousing solutions tailored to meet your specific needs. Our Warehousing Services in Riyadh offers state-of-the-art facilities with advanced security systems and climate control to ensure your products are stored safely and efficiently.",
+      description: "At OFL International, we understand the importance of reliable storage for your valuable goods. That's why we offer comprehensive warehousing solutions tailored to meet your specific needs. Our Warehousing Services in Riyadh offers state-of-the-art facilities with advanced security systems and climate control to ensure your products are stored safely and efficiently.",
       route: "/food-storage"
     },
     {
       title: "Consolidation Service",
       image: "/assets/Consolidation_Service.webp",
-      description: "At Orbit Freight & Logistics (OFL), we're obsessed with providing the most efficient and cost-effective solutions for your global supply chain. That's why we offer a powerful consolidation service designed to save you time and money. Introducing our Amsterdam Consolidation Hub, strategically located to optimize your European distribution network.",
+      description: "At OFL International, we're obsessed with providing the most efficient and cost-effective solutions for your global supply chain. That's why we offer a powerful consolidation service designed to save you time and money. Introducing our Amsterdam Consolidation Hub, strategically located to optimize your European distribution network.",
       route: "/consolidation-service"
     }
   ];
@@ -89,7 +89,7 @@ const WhyChooseOFL = () => {
         <div className="relative z-10 container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-              Why Choose OFL?
+              Why Choose OFL INTERNATIONAL?
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
               Discover our comprehensive range of logistics services designed to meet your every need
@@ -114,14 +114,6 @@ const WhyChooseOFL = () => {
               <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
                 "Thank you for believing in OFL International — your continued trust and support inspire us to raise the bar every day. Here's to new challenges, new horizons, and shared success."
               </p>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-blue-900 font-semibold">6 International branches</p>
-                </div>
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-blue-900 font-semibold">3 branches in Saudi Arabia</p>
-                </div>
-              </div>
             </div>
 
             {/* Right Column - Visual Asset */}
@@ -261,7 +253,7 @@ const WhyChooseOFL = () => {
       {/* Why Choose Us Section */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Why Choose OFL?</h2>
+          <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Why Choose OFL INTERNATIONAL?</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">

@@ -29,14 +29,6 @@ const AboutUs = () => {
             <p className="text-lg text-gray-700 leading-relaxed mb-6 italic">
               "Thank you for believing in OFL International — your continued trust and support inspire us to raise the bar every day. Here's to new challenges, new horizons, and shared success."
             </p>
-            <div className="grid grid-cols-2 gap-4 text-sm mb-6">
-              <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-blue-900 font-semibold">6 International branches</p>
-              </div>
-              <div className="bg-blue-50 p-4 rounded-lg">
-                <p className="text-blue-900 font-semibold">3 branches in Saudi Arabia</p>
-              </div>
-            </div>
             <p className="text-lg font-semibold text-blue-900">
               Rafeek Sharafudeen
             </p>
