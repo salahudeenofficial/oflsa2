@@ -90,7 +90,7 @@ const Contact = () => {
                   className="w-full h-full object-cover"
                 />
                 {/* Fill overlay */}
-                <div className="absolute inset-0 bg-[#241afe] opacity-100"></div>
+
               </div>
             </div>
 
@@ -344,6 +344,22 @@ const Contact = () => {
                       <p className="font-semibold text-blue-900">Dubai Office</p>
                       <p className="text-gray-600 text-sm">Office No. 1202, 12th Floor, Saheel Tower 2</p>
                       <p className="text-gray-600 text-sm">Al Nahda 01, Al Ghusais, Dubai, UAE</p>
+                    </div>
+                  </div>
+
+                  {/* Kochi Office */}
+                  <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div className="w-8 h-8 bg-blue-900 rounded-full flex items-center justify-center flex-shrink-0">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-900">Kochi Office</p>
+                      <p className="text-gray-600 text-sm">Door No: 32/1416, Liam Square, Thurutheparambu Road</p>
+                      <p className="text-gray-600 text-sm">Vazakkala, Thrikkakara, Kochi 682021, Kerala, India</p>
+                      <p className="text-gray-600 text-sm">Tel: +91 484 4303850</p>
                     </div>
                   </div>
                 </div>
